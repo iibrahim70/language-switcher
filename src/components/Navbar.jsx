@@ -1,5 +1,17 @@
+import LanguageSwitcher from "./LanguageSwitcher ";
+
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <nav className="shadow-lg p-5">
+      <div className="flex justify-between">
+        {/* left side */}
+        <h2>Language Switcher</h2>
+
+        {/* right side */}
+        <LanguageSwitcher />
+      </div>
+    </nav>
+  );
 };
 
 export default Navbar;
