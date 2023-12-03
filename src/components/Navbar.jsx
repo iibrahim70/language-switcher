@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="shadow-lg p-5">
       <div className="flex justify-between">
         {/* left side */}
-        <h2>Language Switcher</h2>
+        <h2 className="font-bold">Language Switcher</h2>
 
         {/* right side */}
         <LanguageSwitcher />
