@@ -4,8 +4,9 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section>
-      <h1>{t("welcome")}</h1>
+    <section className="min-h-[calc(100vh-64px)] flex flex-col items-center justify-center gap-2">
+      <h1 className="text-2xl font-bold">{t("welcome")}</h1>
+      <p>{t("greeting")}</p>
     </section>
   );
 };
